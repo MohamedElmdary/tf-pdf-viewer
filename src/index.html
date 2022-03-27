@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .loader {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="previous">Previous</button>
+    <button id="next">Next</button>
+    <p id="loader" class="loader">Loading...</p>
+    <div id="viewer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.13.216/pdf.min.js"></script>
+    <script type="module" src="./ts/main.ts"></script>
+  </body>
+</html>
